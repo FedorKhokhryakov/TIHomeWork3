@@ -74,3 +74,8 @@ def testAcceptAll():
     assert (is_accept_all("OUT2") == False)
     assert (is_accept_all("OUT3") == True)
 
+def testEq():
+    assert (is_DFA_eq("DFA2", "DFA2") == True)
+    assert (is_DFA_eq("DFA1", "DFA2") == False)
+    assert (is_DFA_eq("DFA1", "DFA4") == True)
+    assert (is_DFA_eq("DFA2", "DFA5") == True)

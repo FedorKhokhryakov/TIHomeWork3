@@ -1,4 +1,4 @@
-from tests import testsSimulator, testsConvert, testRegex, testAcceptAll, testMinimize
+from tests import testsSimulator, testsConvert, testRegex, testAcceptAll, testMinimize, testEq
 
 if __name__ == '__main__':
     #testsSimulator()
@@ -6,3 +6,4 @@ if __name__ == '__main__':
     testRegex()
     testMinimize()
     testAcceptAll()
+    testEq()
